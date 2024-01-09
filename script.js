@@ -2,7 +2,7 @@ var rotateDiv = document.getElementById('rot');
 var rotateIcons = document.getElementById('rot-icons');
 var clickRotateDiv = document.getElementById('click-rot');
 var angle = 0;
-
+ 
 clickRotateDiv.onclick = function() {
   angle += 60;
   rotateDiv.style.transform = 'rotate(' + angle + 'deg)';
