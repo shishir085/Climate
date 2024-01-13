@@ -1,4 +1,4 @@
-   var rotateDiv = document.getElementById('rot');
+    var rotateDiv = document.getElementById('rot');
 var rotateIcons = document.getElementById('rot-icons');
 var clickRotateDiv = document.getElementById('click-rot');
 var angle = 0;
